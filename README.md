@@ -39,9 +39,13 @@ Pornind de la imaginea oficială a sistemului de operare Ubuntu, să se creeze u
    ```
    ls -l /var/www/html/ - Afișează pe lung (-l) conținutul directorului /var/www/html/.
    echo ```'<h1>Hello, World!</h1>'``` > /var/www/html/index.html - suprascrie conținutul fișierului index.html (fișier care am văzut că există cu comanda precedentă) cu un tag h1 ce conține "Hello, world".
+
    ![ls](./images/ls.png)
+   
 7) După ce am făcut refresh la pagina web, ea s-a schimbat în următoarea pagină:
+   
    ![img](./images/img2.png)
+   
    Pe pagină se află doar scrisul "Hello, world".
 8) Pe urmă, am executat comenzile:
    ```
@@ -50,7 +54,9 @@ Pornind de la imaginea oficială a sistemului de operare Ubuntu, să se creeze u
    ```
    cd /etc/apache2/sites-enabled/ - schimbă directorul curent cu directorul /etc/apache2/sites-enabled/.
    cat 000-default.conf - afișează conținutul fișierului 000-default.conf.
+   
    ![pic](./images/Picture3.png)
+   
    În fișier se află informații despre configurarea site-ului pe portul 80 al containerului.
 9) Am executat comanda "exit" pentru a ieși din terminalul interactiv.
 10) Am afișat lista de containere cu următoarea comandă (atât cele pornite, cât și cele oprite):
